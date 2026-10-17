@@ -23,6 +23,7 @@ You pick a target number of clicks, then hit the button as fast as you can. The 
 
 Main game window with the target selection, live stats, progress bar and the click button.
 
+
 **Results Screen**
 ![Results Screen](screenshots/Click_Results.png)
 
