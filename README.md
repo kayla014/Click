@@ -32,8 +32,8 @@ Results shown after finishing a round, with the total time, clicks per second an
 ## Tech Stack
 
 - **Language:** JavaScript
-- **Markup:** HTML5
-- **Styling:** CSS3
+- **Markup:** HTML
+- **Styling:** CSS
 - **Storage:** localStorage (browser)
 
 ## Getting Started
