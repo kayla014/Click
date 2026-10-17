@@ -2,8 +2,6 @@
 
 A browser game that times how fast you can click a button a set number of times, built with HTML, CSS and JavaScript.
 
-**Play it here:** https://kayla014.github.io/click/
-
 ## Overview
 
 You pick a target number of clicks, then hit the button as fast as you can. The timer starts on your first click and stops on your last one, and you get your total time and clicks per second. Your best time for each target is saved in your browser so you can try to beat it.
