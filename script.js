@@ -136,14 +136,12 @@
   }
 
   // ---------- events ----------
-  // pointerdown is used so the count registers instantly on mouse and touch
   clickBtn.addEventListener("pointerdown", function (e) {
     if (e.pointerType === "mouse" && e.button !== 0) return;
     e.preventDefault();
     registerClick();
   });
 
-  // stop the browser's own click from doing anything extra
   clickBtn.addEventListener("click", function (e) { e.preventDefault(); });
 
   document.addEventListener("keydown", function (e) {
