@@ -20,10 +20,12 @@ You pick a target number of clicks, then hit the button as fast as you can. The 
 
 **Main Game Window**
 ![Main Game Window](screenshots/Click_Game.png)
+
 Main game window with the target selection, live stats, progress bar and the click button.
 
 **Results Screen**
 ![Results Screen](screenshots/Click_Results.png)
+
 Results shown after finishing a round, with the total time, clicks per second and the saved best times.
 
 ## Tech Stack
