@@ -54,7 +54,7 @@ The game listens for clicks on the main button and counts them until the chosen 
 
 ## Notes
 
-This project was built as a small personal project to practise JavaScript, DOM events, timers and browser storage, and to publish a working project on GitHub Pages.
+This project was built as a small personal project to practise JavaScript, DOM events, timers and browser storage.
 
 ## Developer
 
