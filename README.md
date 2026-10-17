@@ -32,7 +32,6 @@ Results shown after finishing a round, with the total time, clicks per second an
 - **Markup:** HTML5
 - **Styling:** CSS3
 - **Storage:** localStorage (browser)
-- **Hosting:** GitHub Pages
 
 ## Getting Started
 
