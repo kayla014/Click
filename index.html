@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Click Speed Test</h1>
+    <p class="subtitle">How fast can you hit the button? Pick a target, then start clicking. The timer starts on your first click.</p>
+
+    <section class="targets" aria-label="Choose number of clicks">
+      <button class="target-btn" data-target="10">10</button>
+      <button class="target-btn active" data-target="25">25</button>
+      <button class="target-btn" data-target="50">50</button>
+      <button class="target-btn" data-target="100">100</button>
+      <label class="custom">
+        <span>Custom</span>
+        <input type="number" id="customTarget" min="1" max="1000" placeholder="e.g. 30">
+      </label>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <span class="stat-label">Clicks left</span>
+        <span class="stat-value" id="remaining">25</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Time</span>
+        <span class="stat-value" id="time">0.000s</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Clicks / sec</span>
+        <span class="stat-value" id="cps">0.0</span>
+      </div>
+    </section>
+
+    <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+    <button id="clickBtn" class="click-btn" type="button">CLICK!</button>
+    <p class="hint">You can also use the space bar.</p>
+
+    <section class="result" id="result" hidden>
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <button id="again" class="again-btn" type="button">Try again</button>
+    </section>
+
+    <section class="best">
+      <h3>Best times</h3>
+      <ul id="bestList"></ul>
+      <button id="clearBest" class="link-btn" type="button">Clear best times</button>
+    </section>
+
+    <button id="reset" class="link-btn" type="button">Reset</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
