@@ -62,6 +62,6 @@ This project was built as a small personal project to practise JavaScript, DOM e
 
 BSc Information Technology – Software Engineering
 
-Eduvos
-
 GitHub: [@kayla014](https://github.com/kayla014)
+kayla014 - Overview
+BSc IT (Software Engineering) | Software Engineering Student - kayla014
